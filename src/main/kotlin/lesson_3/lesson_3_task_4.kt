@@ -10,7 +10,7 @@ fun main() {
 
     println(strSendMove)
 
-    numMove = 2
+    numMove++
     moveFrom = "D2"
     moveTo = "D3"
 
