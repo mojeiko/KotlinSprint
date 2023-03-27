@@ -9,7 +9,8 @@ fun main() {
 
 // Первое решение было такое
     println(
-        "Доступность столиков на сегодня: ${currentBookingTables < MAX_TABLES},\n" + "Доступность столиков на завтра: ${tomorrowBookingTables < MAX_TABLES}."
+        "Доступность столиков на сегодня: ${currentBookingTables < MAX_TABLES},\n" +
+                "Доступность столиков на завтра: ${tomorrowBookingTables < MAX_TABLES}."
     )
 
 
