@@ -6,15 +6,12 @@ fun main() {
     val password = "password"
 
     print("Введите логин:")
-    val inputLogin = readln()
 
-    if (login != inputLogin)
+    if (login != readln())
         println("Такого пользователя не существует!\nХотите зарегистрироваться?")
     else {
         print("Введите пароль:")
-        val inputPassword = readln()
-
-        if (password != inputPassword)
+        if (password != readln())
             println("Ошибка авторизации!")
         else println("Добро пожаловать!")
     }
